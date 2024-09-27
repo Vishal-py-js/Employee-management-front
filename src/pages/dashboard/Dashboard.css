@@ -1,0 +1,60 @@
+.container{
+    width: 100%;
+}
+
+.actions{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons{
+    justify-self: flex-end;
+    display: flex;
+    gap: 1rem;
+}
+
+.but{
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: white;
+}
+
+.but>img{
+    background-color: white;
+    border-radius: 7px;
+}
+
+.but:hover{
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
+.searchbar{
+    border: 2px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 0 5px;
+}
+
+.searchbar>input{
+    border: none;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.searchbar>input:focus{
+    border: none;
+    outline: none;
+}

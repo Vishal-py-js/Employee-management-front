@@ -1,0 +1,62 @@
+.modal1{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.cont{
+    width: 60%;
+    height: 40%;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.input-cont{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    input{
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px 20px;
+        box-shadow: 1px 1px 6px var(--primary-color);
+        border: 1px solid var(--primary-color);
+    }
+    input:focus{
+        outline: 1px solid var(--primary-color);
+    }
+}
+
+.select {
+
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--primary-color);
+    box-shadow: 1px 1px 6px var(--primary-color);
+    select {
+        flex: 1;
+        align-items: center;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+.select>select:focus{
+    outline: none;
+}

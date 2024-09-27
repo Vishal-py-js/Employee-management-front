@@ -1,0 +1,26 @@
+.but{
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: white;
+    width: 200px;
+    align-self: flex-end;
+}
+
+.but>img{
+    background-color: white;
+    border-radius: 7px;
+    /* height: 15px; */
+}
+
+.but:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 6px var(--primary-color);
+    transition: 0.1s;
+}
